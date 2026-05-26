@@ -4,7 +4,7 @@ const gif = qs(".gif");
 const [yesBtn, noBtn] = [".yes-btn", ".no-btn"].map(qs);
 
 const handleYesClick = () => {
-  question.innerHTML = "Yeahhhhhhhhhhh! See you then!! p.s. I don't get a response from this link. please text me your response. thanks";
+  question.innerHTML = "Okay! See you then!! - Pls select Let's go under the cat";
   gif.src = "https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExNXZjemphNjVxbG0xdnk1MmN4MmIyMHN1ZG82Y2c0OTNpOHhsdXBmciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/Qu9mzhLWOvAQJgp8bP/giphy.gif";
 
   // Remove the 'mouseover' event listener from noBtn
@@ -15,10 +15,7 @@ const handleYesClick = () => {
 
   // Define predefined romantic date ideas
   const potentialDates = [
-  "Wednesday",
-  "Thursday",
-  "Sunday after Interhigh",
-  "After Sabbath Week/Mfuge :( ",
+  "I don't actually get a response from this link. Please text me your response. Thanks!",
 ];
 
   // Create and style a new button for Let's Go!
