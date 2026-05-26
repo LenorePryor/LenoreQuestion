@@ -14,13 +14,12 @@ const handleYesClick = () => {
   noBtn.remove();
 
   // Define predefined romantic date ideas
-  const Potential dates = [
-    "Wednesday",
-    "Thursday",
-    "Sunday after Interhigh",
-    "After Sabbath Week/Mfuge :( ",
-    // Add more date ideas as needed
-  ];
+  const potentialDates = [
+  "Wednesday",
+  "Thursday",
+  "Sunday after Interhigh",
+  "After Sabbath Week/Mfuge :( ",
+];
 
   // Create and style a new button for Let's Go!
   const letsGoBtn = document.createElement("button");
@@ -40,10 +39,11 @@ const handleYesClick = () => {
 
   // Add a click event listener to prompt the user with random romantic date ideas
   letsGoBtn.addEventListener("click", () => {
-    const randomIndex = Math.floor(Math.random() * dateIdeas.length);
-    const selectedDateIdea = dateIdeas[randomIndex];
+        const randomIndex = Math.floor(Math.random() * potentialDates.length);
+    const selectedDateIdea = potentialDates[randomIndex];
 
-    alert(`How about this romantic date idea: ${selectedDateIdea}`);
+
+    alert(`Let me know when you are free: ${selectedDateIdea}`);
   });
 
   // Replace yesBtn with the new letsGoBtn
